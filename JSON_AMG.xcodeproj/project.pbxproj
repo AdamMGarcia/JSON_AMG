@@ -15,6 +15,7 @@
 		AB075FDF222F844D00896882 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB075FDD222F844D00896882 /* LaunchScreen.storyboard */; };
 		AB075FEA222F844D00896882 /* JSON_AMGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB075FE9222F844D00896882 /* JSON_AMGTests.swift */; };
 		AB075FF5222F844D00896882 /* JSON_AMGUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB075FF4222F844D00896882 /* JSON_AMGUITests.swift */; };
+		AB076003222F853800896882 /* Datamanager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB076002222F853800896882 /* Datamanager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		AB075FF0222F844D00896882 /* JSON_AMGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSON_AMGUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB075FF4222F844D00896882 /* JSON_AMGUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSON_AMGUITests.swift; sourceTree = "<group>"; };
 		AB075FF6222F844D00896882 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB076002222F853800896882 /* Datamanager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datamanager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				AB075FD2222F844B00896882 /* AppDelegate.swift */,
 				AB075FD4222F844B00896882 /* MasterViewController.swift */,
 				AB075FD6222F844B00896882 /* DetailViewController.swift */,
+				AB076002222F853800896882 /* Datamanager.swift */,
 				AB075FD8222F844B00896882 /* Main.storyboard */,
 				AB075FDB222F844D00896882 /* Assets.xcassets */,
 				AB075FDD222F844D00896882 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB075FD7222F844B00896882 /* DetailViewController.swift in Sources */,
+				AB076003222F853800896882 /* Datamanager.swift in Sources */,
 				AB075FD5222F844B00896882 /* MasterViewController.swift in Sources */,
 				AB075FD3222F844B00896882 /* AppDelegate.swift in Sources */,
 			);

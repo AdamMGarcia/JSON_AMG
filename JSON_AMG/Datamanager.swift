@@ -11,7 +11,7 @@ import UIKit
 class Datamanager: NSObject {
     
     func getData() {
-        let urlString = "https://api.myjson.com/bins/ag4ha"
+        let urlString = "https://api.myjson.com/bins/r2fzi"
             
             let actualUrl = URL(string: urlString)
             
